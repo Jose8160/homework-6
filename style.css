@@ -1,0 +1,15 @@
+.container {
+  border: 2px solid black;
+  height: 100vh;
+}
+
+.container > div {
+  border: 2px solid green;
+  height: 400px;
+}
+
+.row > div {
+  border: 2px solid yellow;
+  height: 250px;
+  width: 50%;
+}
