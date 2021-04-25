@@ -23,8 +23,8 @@ function getCurrentWeather(city) {
             console.log(data.weather[0].icon);
             
             document.querySelector(".current-weather").innerHTML = 
-            "<h3>" + data.weather[0].description +  "</h3>" +
-            "<p>" + data.weather[0].main + "</p>" +
+            "<h3>" + data.weather[0].description + "</h3>" +
+            "<p>" + data.weather[0].main + "</p>";
             document.querySelector(".icons").innerHTML = data.weather[0].icon;
 
             document.querySelector('.temp').innerHTML =
