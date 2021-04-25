@@ -24,12 +24,9 @@ function getCurrentWeather(city) {
             
             document.querySelector(".current-weather").innerHTML = 
             "<h3>" + data.weather[0].description + "</h3>" +
-            "<p>" + data.weather[0].main + "</p>";
+            "<p>" + data.weather[0].main + "</p>" 
             document.querySelector(".icons").innerHTML = data.weather[0].icon;
-
-            document.querySelector('.temp').innerHTML =
-            "<p>" + data.main.temp + "</p>"
-            console.log(data.main.temp);
+            
             
             
             getForcast(data.coord.lat, data.coord.lon);
@@ -59,7 +56,6 @@ function getCurrentWeather(city) {
         getCurrentWeather("kansas city");
         
         
-        
         const storageInput = document.querySelector('.storage');
         const text = document.querySelector('.text');
         const button = document.querySelector('.button');
@@ -73,6 +69,7 @@ function getCurrentWeather(city) {
             localStorage.setItem('textinput', text.textContent) 
             button.addEventListener('click',saveStorage)
         }
+
         
         
         
