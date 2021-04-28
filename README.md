@@ -14,3 +14,6 @@ How API works
 What did you learn?
 A better understanding of a functioning weather app.
 
+[Link to deployable application](https://jose8160.github.io/homework-6/)
+
+![Screenshot](weatherscreenshot.png)
